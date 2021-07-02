@@ -19,5 +19,6 @@ public class IOTDevice {
     private UUID iotDeviceId;
 
     private String description;
-    
+
+    private StoreCampus storeCampus;
 }

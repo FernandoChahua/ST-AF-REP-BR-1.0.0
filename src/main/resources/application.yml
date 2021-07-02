@@ -1,9 +1,10 @@
 
 server:
-  port: 8091
+  port: ${PORT:8091}
 
 spring:
-  date:
+  data:
     mongodb:
-      authentication-database: admin
-      uri: mongodb+srv://dbcliente:dbappforo@cluster0.lfrvs.mongodb.net/borrar?retryWrites=true&w=majority
+      user: appdbuser123
+      password: appdbuser123
+      uri: mongodb+srv://admin:admin@cluster.chgn7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
