@@ -1,0 +1,9 @@
+
+server:
+  port: 8091
+
+spring:
+  date:
+    mongodb:
+      authentication-database: admin
+      uri: mongodb+srv://dbcliente:dbappforo@cluster0.lfrvs.mongodb.net/borrar?retryWrites=true&w=majority
